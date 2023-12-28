@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind CSS - Rapidly build modify</title><link rel="shortcut icon" href="download.png" type="image/x-icon">
+  </head>
+  <body class="bg-green-300">
+    <div class="bg-fuchsia-600 ">
+
+      <span class="flex item-centre"><h1 class=" pt-52 pl-16 font-mono font-bold text-7xl">Tailwind CSS</h1>
+    
+      <img class="bg-fuchsia-600 flex content-center pt-44 pl-96" src="tailwindcss.png" alt=""></span>
+    
+      <div class="bg-fuchsia-600 h-full grid">
+
+      <h2 class="py-3 pl-44 pt-9 w-2/3 font-serif text-4xl text-black-400 ">Why Use Tailwind CSS?</h2>
+
+      <ul class="py-3 w-2/3 space-x-11 text-indigo-200 font-">
+        <li class="pl-56"><b class="text-black font-mono">*</b> No reinventing of class names required</li>
+
+          <li class="pl-44" ><b class="text-black font-mono">*</b>  You CSS does not grow with your html and designs</li>
+          <li class="pl-44"><b class="text-black font-mono">*</b> When you make a change , no risk of breaking existing templates</li>
+          <li class="pl-44"><b class="text-black font-mono">*</b> If you try to build the site from the last video using Pure CSS , You will get answers to a lot of questions you have about tailwind</li>
+          <li class="pl-44"><b class="text-black font-mono">*</b> Will this make sites slow? Will it increase bundle size?  <b>- NO</b></li>
+          <li class="pl-44"><b class="text-black font-mono">*</b> What About Responsiveness?</li>
+      </ul>
+
+
+      <h2 class="py-3 pl-44 pt-9 w-2/3 font-serif text-4xl text-black-400">How to setup Tailwind CSS for Production purposes? (Setting Up Tailwind CSS)</h2>
+      <p class="pl-44">To Set-up tailwind CSS, Run these commands, ..</p>
+    <ul class="pl-56">
+        <li> 1. npm init -y // This initializes the directory as a NodeJs project</li>
+        <li> 2. npm install -D tailwindcss postcss autoprefixer vite  //installs required packages </li>
+        <li> 3. npx tailwindcss init -p</li>
+                <li> 4. Create a css file "input.css". add it to your html and edit it with this content:
+                    <ul>
+                     <li> @tailwind base;</li>
+                     <li> @tailwind components; </li>
+                     <li> @tailwind utilities;</li>
+                    </ul>
+                </li>
+        <li>5. In your tailwind.config.js file replace content:[], with content["*"],</li>
+        <li>6. Add "start":"vite" to your scripts in package.json</li>
+        <li>7. Run npm run start command to start a developer server</li>
+
+    </ul>
+
+    </div>
+
+
+
+
+    <footer class="bg-green-300 content-center pl-96 text-5xl">
+        Thanks for Watching!
+    </footer>
+  </body >
+</html>
